@@ -1,0 +1,5 @@
+inherit_from: configs/celeba.yaml
+model:
+  out_folder: out/celeba_pretrained
+test:
+  model_file: https://s3.eu-central-1.amazonaws.com/avg-projects/campari/models/celeba_cpt-822a9f86.pt

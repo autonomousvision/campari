@@ -1,0 +1,5 @@
+inherit_from: configs/cats.yaml
+model:
+  out_folder: out/cats_pretrained
+test:
+  model_file: https://s3.eu-central-1.amazonaws.com/avg-projects/campari/models/cats_cpt-5a529e7a.pt

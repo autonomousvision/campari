@@ -1,0 +1,5 @@
+inherit_from: configs/carla.yaml
+model:
+  out_folder: out/carla_pretrained
+test:
+  model_file: https://s3.eu-central-1.amazonaws.com/avg-projects/campari/models/carla_cpt-50ad6133.pt

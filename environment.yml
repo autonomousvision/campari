@@ -1,0 +1,27 @@
+name: campari
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=10.1.243
+  - imageio=2.9.0
+  - kornia=0.3.0
+  - matplotlib=3.3.4
+  - numpy=1.19.2
+  - pandas=1.2.3
+  - pillow=7.1.2
+  - pip=21.0.1
+  - pyparsing=2.4.7
+  - python=3.8.3
+  - pytorch=1.7.1
+  - pyyaml=5.4.1
+  - scikit-learn=0.24.1
+  - scipy=1.6.0
+  - tensorboard=2.4.1
+  - torchvision=0.8.2
+  - tqdm=4.58.0
+  - yaml=0.2.5
+  - pip:
+    - imageio-ffmpeg==0.4.3
+    - opencv-python==4.5.1.48

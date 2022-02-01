@@ -1,0 +1,46 @@
+method: campari
+data:
+  dataset: celeba
+  img_size: 128
+  ds_path: data/celeba
+training:
+  batch_size_pg: [64, 24, 20]
+  pg_n_loop_final: 2
+  pg_milestones: [20000, 70000]
+  n_workers: [12, 8, 0]
+  n_iter: 400000
+  visualize_every: 2000
+  visualize_video_every: 5000
+  print_every: 50
+  eval_every: 5000
+  checkpoint_every: 200
+  n_eval_images: 1000
+  backup_every: 10000
+  lr_g: 0.0005
+  lr_d: 0.0001
+  lr_decay: True
+  eval_metric: fid 
+  optimizer: rmsprop
+  training_kwargs: {}
+  exit_after: -1
+  decay_steps: 150
+model:
+  out_folder: out/00
+  c_dim: 256
+  lambda_adv: 1.
+  use_moving_average: True
+  discriminator: coord_pg2
+  discriminator_kwargs: {}
+  generator: default
+  generator_kwargs: {}
+  decoder: default
+  decoder_kwargs: {}
+  decoder_bg: default
+  decoder_bg_kwargs: {}
+  latent_cameras: embed4
+test:
+  mode: spiral # recon
+  n_test_images: 20000
+  model_file: model_best.pt
+  n_test_samples_train: 32
+  n_test_samples_test: 64

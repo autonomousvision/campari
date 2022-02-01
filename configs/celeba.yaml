@@ -1,0 +1,9 @@
+method: campari
+data:
+  ds_path: /is/rg/avg/datasets/celebA/Img/img_align_celebA/
+model:
+  out_folder: out/celeba
+  generator_kwargs:
+     fix_cam_after_50k: True
+  decoder_bg_kwargs:
+    in_features: 4

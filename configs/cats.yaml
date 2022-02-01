@@ -1,0 +1,9 @@
+method: campari
+data:
+  ds_path: data/cats
+  dataset: cats
+model:
+  out_folder: out/cats
+  generator_kwargs:
+     n_samples_ps: [14, 20, 20]
+  decoder_bg: null

@@ -1,0 +1,5 @@
+inherit_from: configs/chairs1.yaml
+model:
+  out_folder: out/chairs1_pretrained
+test:
+  model_file: https://s3.eu-central-1.amazonaws.com/avg-projects/campari/models/chairs1-87beb026.pt

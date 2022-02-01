@@ -1,0 +1,22 @@
+method: campari
+data:
+  ds_path: data/carla
+  dataset: carla
+training:
+  batch_size_pg: [64, 20, 15]
+  pg_milestones: [20000, 70000]
+  pg_n_loop_final: 3
+  n_workers: [12, 5, 0]
+model:
+  out_folder: out/carla
+  generator_kwargs:
+    camera_param: full
+    gt_stats_file: data/stats_files/carla.npz
+    raw_noise_std: 2.
+    n_samples_ps: [32, 42, 52]
+    white_background: True
+  latent_cameras: embed_full4
+  decoder_bg: null
+test:
+  n_test_samples_train: 64
+  n_test_samples_test: 64
