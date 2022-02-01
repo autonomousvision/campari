@@ -1,5 +1,5 @@
 # CAMPARI: Camera-Aware Decomposed Generative Neural Radiance Fields
-## [Paper](http://www.cvlibs.net/publications/Niemeyer2021CVPR.pdf) | [Supplementary](http://www.cvlibs.net/publications/Niemeyer2021CVPR_supplementary.pdf) | [Video](http://www.youtube.com/watch?v=rrIIEc2qYjM&vq=hd1080&autoplay=1) | [Poster](http://www.cvlibs.net/publications/Niemeyer2021THREEDV_poster.pdf)
+## [Paper](http://www.cvlibs.net/publications/Niemeyer2021THREEDV.pdf) | [Supplementary](http://www.cvlibs.net/publications/Niemeyer2021THREEDV_supplementary.pdf) | [Video](http://www.youtube.com/watch?v=rrIIEc2qYjM&vq=hd1080&autoplay=1) | [Poster](http://www.cvlibs.net/publications/Niemeyer2021THREEDV_poster.pdf)
 
 If you find our code or paper useful, please cite as
 
